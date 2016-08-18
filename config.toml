@@ -1,0 +1,6 @@
+baseurl = "http://replace-this-with-your-hugo-site.com/"
+languageCode = "en-us"
+title = ""
+theme = "mutant"
+[params]
+nodefolder = "/public/node_modules"	

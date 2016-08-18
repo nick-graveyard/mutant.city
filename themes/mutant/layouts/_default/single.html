@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+{{ partial "header.html" }}
+</head>
+<body>
+
+{{ partial "navbar.html" }}
+
+<section id="main">
+  <h1 id="title">{{ .Title }}</h1>
+  <div>
+        <article id="content">
+           {{ .Content }}
+        </article>
+  </div>
+</section>
+
+<aside id="meta">
+
+</aside>
+
+
+{{ partial "footer.html" }}
+</body>
+</html>

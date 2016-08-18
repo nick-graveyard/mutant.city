@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on </title>
+    <link>http://replace-this-with-your-hugo-site.com/post/</link>
+    <description>Recent content in Posts on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 06 Aug 2016 18:04:37 -0500</lastBuildDate>
+    <atom:link href="http://replace-this-with-your-hugo-site.com/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>test_2_post</title>
+      <link>http://replace-this-with-your-hugo-site.com/post/test_2_post/</link>
+      <pubDate>Sat, 06 Aug 2016 18:04:37 -0500</pubDate>
+      
+      <guid>http://replace-this-with-your-hugo-site.com/post/test_2_post/</guid>
+      <description>&lt;p&gt;TEST_2_POST!!!!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>test_1_post</title>
+      <link>http://replace-this-with-your-hugo-site.com/post/test_1_post/</link>
+      <pubDate>Sat, 06 Aug 2016 18:03:51 -0500</pubDate>
+      
+      <guid>http://replace-this-with-your-hugo-site.com/post/test_1_post/</guid>
+      <description>&lt;p&gt;TEST_1_POST!!!&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

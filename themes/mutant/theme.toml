@@ -1,0 +1,33 @@
+# theme.toml template for a Hugo theme
+# See https://github.com/spf13/hugoThemes#themetoml for an example
+
+name = "Mutant"
+license = "MIT"
+licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE.md"
+description = "This is just a hugo theme."
+homepage = "http://mutant.city"
+features = ["stuff", "some_other_stuff"]
+min_version = 0.15
+
+tag = "tags"
+category = "categories"
+series = "series
+
+[author]
+  name = "dudebrah"
+  homepage = "https://github.com/nkiermaier/mutant_city.git"
+
+[params]
+node_modules = "/public/node_modules"	
+
+# The params variable does not work in themes!! 
+# Sitewide params variables seems to only work if defined inside of the main Hugo config.toml.
+# Therefore, because I just want this to be a drag and drop theme, with minimal to no config 
+# on the users part, I've hacked this inside of the individual template files that needed it 
+# under the name $node_modules. As soon as the developers allow this params function to 
+# be defined inside of the theme.toml file I will remove the variables from the individual 
+# templates and replace in the templates with this variable above.
+
+
+
+

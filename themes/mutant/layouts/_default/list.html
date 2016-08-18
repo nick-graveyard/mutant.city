@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+{{ partial "header.html" }}
+</head>
+<body>
+{{ partial "navbar.html" }}
+
+	{{ range (.Paginator 5).Pages }}
+		<h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
+	{{ end }}
+
+	{{ if .Paginator.HasPrev }}
+	    <a class="btn btn-default" href="{{ .Paginator.Prev.URL }}">
+	        < Previous Page
+	    </a>
+	{{ end }}
+	{{ if .Paginator.HasNext }}
+	    <a class="btn btn-default" href="{{ .Paginator.Next.URL }}">
+	        Next Page >
+	    </a>
+	{{ end }}
+
+
+{{ partial "footer.html" }}
+</body>
+</html>

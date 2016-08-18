@@ -1,0 +1,24 @@
+{
+  "name": "mutant.city",
+  "version": "1.0.0",
+  "description": "This is just a website",
+  "main": "index.js",
+  "scripts": {
+    "test": "test_me"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nkiermaier/mutant_city.git"
+  },
+  "author": "dudebrah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nkiermaier/mutant_city/issues"
+  },
+  "homepage": "https://github.com/nkiermaier/mutant_city#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.6.3",
+    "jquery": "^3.1.0"
+  }
+}
